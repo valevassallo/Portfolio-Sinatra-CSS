@@ -4,10 +4,9 @@ body {
   font-family: "Acme", sans-serif;
   min-height: 100vh;
   margin: 0;
-}
-.home {
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   display: flex;
   text-shadow: 2px 2px 10px rgb(163, 200, 255);
 }
@@ -16,9 +15,14 @@ h1 {
   text-align: center;
   font-size: 50px;
 }
-main {
+.home {
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
+
 .boxed {
   border: 1px solid blue;
   position: relative;
